@@ -47,7 +47,7 @@ const Home = () => {
   ];
 
   const stats = [
-    { value: "50+", label: "Projects Delivered" },
+    { value: "10+", label: "Projects Delivered" },
     { value: "98%", label: "Client Satisfaction" },
     { value: "24/7", label: "Support Available" },
   ];
