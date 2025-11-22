@@ -83,12 +83,12 @@ const Home = () => {
               We build intelligent digital solutions that accelerate growth, automate complexity, and deliver measurable results.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <Link to="/contact">
+              <a href="https://wa.me/6283898216494" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-gradient-primary hover:opacity-90 transition-opacity text-base px-8">
                   Start Your Project
                   <ArrowRight className="ml-2" size={20} />
                 </Button>
-              </Link>
+              </a>
               <Link to="/portfolio">
                 <Button size="lg" variant="outline" className="text-base px-8">
                   View Our Work

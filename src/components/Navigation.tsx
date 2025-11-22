@@ -39,11 +39,11 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
-            <Link to="/contact">
+            <a href="https://wa.me/6283898216494" target="_blank" rel="noopener noreferrer">
               <Button className="bg-gradient-primary hover:opacity-90 transition-opacity">
                 Start Your Project
               </Button>
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -71,11 +71,11 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
-            <Link to="/contact" onClick={() => setIsOpen(false)}>
+            <a href="https://wa.me/6283898216494" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
               <Button className="w-full mt-4 bg-gradient-primary">
                 Start Your Project
               </Button>
-            </Link>
+            </a>
           </div>
         )}
       </div>
