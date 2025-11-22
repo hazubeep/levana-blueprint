@@ -155,12 +155,12 @@ const Portfolio = () => {
             <p className="text-lg opacity-90">
               Let's create something exceptional together.
             </p>
-            <Link to="/contact">
+            <a href="https://wa.me/6283898216494" target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="secondary" className="bg-background text-foreground hover:bg-background/90">
                 Start Your Project
                 <ArrowRight className="ml-2" size={20} />
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
