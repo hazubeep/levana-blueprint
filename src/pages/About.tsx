@@ -144,7 +144,7 @@ const About = () => {
                 create solutions that truly make an impact.
               </p>
             </div>
-            <div className="grid md:grid-cols-2 md:gap-12 lg:grid-cols-3 ">
+            <div className="grid gap-12 md:grid-cols-2 md:gap-12 lg:grid-cols-3 ">
               {teams.map((team, index) => (
                 <div
                   key={index}
