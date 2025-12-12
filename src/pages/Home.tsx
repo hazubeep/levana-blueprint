@@ -5,8 +5,6 @@ import {
   MessageSquare,
   Zap,
   Gauge,
-  CheckCircle2,
-  icons,
   BrainCircuit,
   MessageSquareText,
   Rocket,
@@ -16,11 +14,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import heroBackground from "@/assets/hero-background.jpg";
-import portfolioWebsite from "@/assets/portfolio-website.jpg";
-import portfolioChatbot from "@/assets/portfolio-chatbot.jpg";
-import portfolioAutomation from "@/assets/portfolio-automation.jpg";
 import aboutImage from "@/assets/about-us.jpg";
-import { stat } from "fs";
 
 const Home = () => {
   const services = [
@@ -111,7 +105,7 @@ const Home = () => {
             </div>
             <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold leading-tight">
               Transform Your Business
-              <span className="block bg-gradient-accent bg-clip-text text-transparent">
+              <span className="block bg-gradient-accent leading-normal bg-clip-text text-transparent">
                 With Smart Technology
               </span>
             </h1>
