@@ -1,6 +1,13 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook } from "lucide-react";
-import logo from "@/assets/logo.png";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Instagram,
+  Linkedin,
+  Facebook,
+} from "lucide-react";
+import logo from "@/assets/company/logo-levana-ts.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -13,16 +20,26 @@ const Footer = () => {
           <div className="space-y-4">
             <img src={logo} alt="Levana Digital" className="h-10" />
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Tech-forward digital agency delivering quality, speed, and innovation for modern businesses.
+              Tech-forward digital agency delivering quality, speed, and
+              innovation for modern businesses.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a
+                href="#"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a
+                href="#"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a
+                href="#"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
                 <Facebook size={20} />
               </a>
             </div>
@@ -33,22 +50,34 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-3">
               <li>
-                <Link to="/about" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  to="/about"
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  to="/services"
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                >
                   Services
                 </Link>
               </li>
               <li>
-                <Link to="/portfolio" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  to="/portfolio"
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                >
                   Portfolio
                 </Link>
               </li>
               <li>
-                <Link to="/blog" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  to="/blog"
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                >
                   Blog
                 </Link>
               </li>
@@ -59,9 +88,15 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Services</h3>
             <ul className="space-y-3">
-              <li className="text-sm text-muted-foreground">Website Development</li>
-              <li className="text-sm text-muted-foreground">AI Chatbot WhatsApp</li>
-              <li className="text-sm text-muted-foreground">Business Automation</li>
+              <li className="text-sm text-muted-foreground">
+                Website Development
+              </li>
+              <li className="text-sm text-muted-foreground">
+                AI Chatbot WhatsApp
+              </li>
+              <li className="text-sm text-muted-foreground">
+                Business Automation
+              </li>
               <li className="text-sm text-muted-foreground">Custom Systems</li>
             </ul>
           </div>
