@@ -10,11 +10,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import heroBackground from "@/assets/hero-background.jpg";
 import Footer from "@/components/Footer";
-import agniaPicture from "@/assets/agnia.jpg";
-import rakaPicture from "@/assets/raka.jpg";
-import bimoPicture from "@/assets/bimo.png";
-import hazbyPicture from "@/assets/hazby.jpg";
-import alfathPicture from "@/assets/alfath.jpg";
+import agniaPicture from "@/assets/profile/agnia.jpg";
+import rakaPicture from "@/assets/profile/raka.jpg";
+import bimoPicture from "@/assets/profile/bimo.png";
+import hazbyPicture from "@/assets/profile/hazby.jpg";
+import alfathPicture from "@/assets/profile/alfath.jpg";
 
 const About = () => {
   const values = [

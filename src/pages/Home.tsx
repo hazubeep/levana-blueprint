@@ -14,7 +14,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import heroBackground from "@/assets/hero-background.jpg";
-import aboutImage from "@/assets/about-us.jpg";
+import aboutImage from "@/assets/about-us-ts.png";
+import laptopImage from "@/assets/laptop.png";
+import logoLevana from "@/assets/company/logo-levana-ts.png";
+import logoNesas from "@/assets/company/logo-nesas.png";
+import logoSumedang from "@/assets/company/logo-sumedang.png";
+import logoHwg from "@/assets/company/logo-hwg.png";
 
 const Home = () => {
   const services = [
@@ -283,24 +288,12 @@ const Home = () => {
           </div>
 
           <div className="grid gap-x-8 gap-y-16  justify-items-center center items-center md:grid-cols-2 lg:grid-cols-4 ">
-            <img
-              className="w-40"
-              src="/src/assets/logo-levana-ts.png"
-              alt="company-logo"
-            />
-            <img
-              className="w-36"
-              src="/src/assets/nesas-ts.png"
-              alt="company-logo"
-            />
-            <img
-              className="w-36"
-              src="/src/assets/logo-sumedang.png"
-              alt="company-logo"
-            />
+            <img className="w-40" src={`${logoLevana}`} alt="company-logo" />
+            <img className="w-36" src={`${logoNesas}`} alt="company-logo" />
+            <img className="w-36" src={`${logoSumedang}`} alt="company-logo" />
             <img
               className="w-36 lg:w-40"
-              src="/src/assets/hwg.png"
+              src={`${logoHwg}`}
               alt="company-logo"
             />
           </div>
@@ -337,7 +330,7 @@ const Home = () => {
             </div>
             <img
               className="w-[615px] h-full shadow-2xl hidden object-cover rounded-md lg:block"
-              src="/src/assets/laptop.png"
+              src={`${laptopImage}`}
               loading="lazy"
               alt="laptop picture"
             />
