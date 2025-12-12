@@ -69,7 +69,7 @@ const Blog = () => {
           <div className="max-w-4xl mx-auto text-center space-y-6 animate-fade-in">
             <h1 className="text-4xl lg:text-6xl font-bold">
               Insights & Ideas
-              <span className="block bg-gradient-accent bg-clip-text text-transparent">
+              <span className="block leading-normal bg-gradient-accent bg-clip-text text-transparent">
                 From the Digital Frontier
               </span>
             </h1>
