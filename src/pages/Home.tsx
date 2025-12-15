@@ -14,7 +14,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import heroBackground from "@/assets/hero-background.jpg";
-import aboutImage from "@/assets/about-us-ts.png";
+import aboutImage from "@/assets/about-us.png";
 import laptopImage from "@/assets/laptop.png";
 import logoLevana from "@/assets/company/logo-levana-ts.png";
 import logoNesas from "@/assets/company/logo-nesas.png";
@@ -145,11 +145,11 @@ const Home = () => {
       {/* About us */}
       <section className="relative py-20 bg-white overflow-hidden">
         <div
-          className="hidden lg:block absolute top-0 right-0 h-full w-1/2 lg:w-5/12 pointer-events-none"
+          className="hidden lg:block absolute inset-0 pointer-events-none"
           style={{
             backgroundImage: `url(${aboutImage})`,
             backgroundSize: "cover",
-            backgroundPosition: "82% 80%",
+            backgroundPosition: "40%",
             backgroundRepeat: "no-repeat",
           }}
           aria-hidden="true"
