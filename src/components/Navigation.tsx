@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo-levana-ts.png";
+import logo from "@/assets/logo-new.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,9 +30,8 @@ const Navigation = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
-                  isActive(item.path) ? "text-primary" : "text-foreground/70"
-                }`}
+                className={`text-sm font-medium transition-colors hover:text-primary ${isActive(item.path) ? "text-primary" : "text-foreground/70"
+                  }`}
               >
                 {item.name}
               </Link>
@@ -61,9 +60,8 @@ const Navigation = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`block py-3 text-sm font-medium transition-colors ${
-                  isActive(item.path) ? "text-primary" : "text-foreground/70"
-                }`}
+                className={`block py-3 text-sm font-medium transition-colors ${isActive(item.path) ? "text-primary" : "text-foreground/70"
+                  }`}
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}

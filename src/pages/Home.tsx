@@ -14,7 +14,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import heroBackground from "@/assets/hero-background.jpg";
-import aboutImage from "@/assets/about-us-ts.png";
+import aboutImage from "@/assets/about-us-image.png";
 import laptopImage from "@/assets/laptop.png";
 import logoLevana from "@/assets/company/logo-levana-ts.png";
 import logoNesas from "@/assets/company/logo-nesas.png";
