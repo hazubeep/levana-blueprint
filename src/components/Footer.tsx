@@ -7,7 +7,7 @@ import {
   Linkedin,
   Facebook,
 } from "lucide-react";
-import logo from "@/assets/logo-levana-ts.png";
+import logo from "@/assets/logo-new.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
