@@ -10,7 +10,6 @@ This is a personal website intended for showing information about someone. The s
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Technologies Used](#technologies-used)
-- [Content Management](#content-management)
 - [Contributing](#contributing)
 
 ## Getting Started
@@ -44,7 +43,7 @@ To start the development server, run the following command:
 pnpm dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
 
 To build the application for production, run the following command:
 
@@ -171,10 +170,6 @@ The folder structure of this project is as follows:
 - [lucide-react](https://lucide.dev/) - Icon components for React.
 - [react-router-dom](https://reactrouter.com/) - Routing for React applications.
 - [sonner](https://sonner.js.org/) - Toast notifications.
-
-## Content Management
-
-This site uses React components and local page data for content. There is no external Markdown or CMS content source configured in this repository.
 
 ## Contributing
 
